@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form đơn giản part 2</title>
+</head>
+<body>
+<table   width="400" height="100" >
+    <form>
+        <tr style="text-align: left"  >
+            <th colspan="2"> <h1> ĐĂNG KÍ HỌC VIÊN</h1></th>
+        </tr>
+        <tr style="text-align: left">
+            <th>Họ và tên</th>
+            <th> <input type="text" name="username" value="Name" > </th>
+        </tr>
+        <tr style="text-align: left">
+            <th>Ngày sinh</th>
+            <th><input type="date" name="birday" value="mm/dd/yy" ></th>
+        </tr>
+        <tr style="text-align: left">
+            <th>Giới tính</th>
+            <th><input type="radio" name="Sex" >Nam
+            <input type="radio" name="Sex" > Nữ</th>
+        </tr>
+        <tr  style="text-align: left">
+            <th> Địa chỉ</th>
+            <th> <input type="text" name="address" ></th>
+        </tr>
+        <tr style="text-align: left">
+            <th>Lớp</th>
+            <th><input list="class" name="class">
+            <datalist id="class">
+                <option value="cko5k62"> </option>
+                <option value="CNTT01K60"></option>
+            </datalist></th>
+        </tr>
+        <tr style="text-align: left">
+            <th>Email</th>
+            <th><input type="email" name="email" value="email@gmail.com"> </th>
+        </tr>
+        <tr style="text-align: left">
+            <th>Điện thoại</th>
+            <th><input type="number" name="phone">  </th>
+        </tr>
+    </form>
+</table>
+</body>
+</html>
