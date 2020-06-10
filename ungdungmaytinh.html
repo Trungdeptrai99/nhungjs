@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập ứng dụng máy tính</title>
+</head>
+<body>
+<form>
+    <table border="1" width="600" heigth="150">
+        <caption><h2>Caculator</h2></caption>;
+        <tr style="text-align: left">
+            <th><input type="text" value="" id="number1">
+            <input type="text" value="" id="number2"></th>
+        </tr>
+        <tr style="text-align: left">
+           <th><button type="button" name="cong" onclick="showResult()"> addition(+)</button>
+           <button type="button" onclick="showResult2()"> subtraction(-)</button>
+           <button type="button" onclick="showResult3()"> Multiplication(X)</button>
+           <button type="button" onclick="showResult4()"> Division(/)</button> </th>
+        </tr>
+    </table>
+ </form>
+<div id="prin"></div>
+<script>
+function showResult() {
+    let a = parseInt( document.getElementById("number1").value);
+    let b = parseInt(document.getElementById("number2").value);
+   let tong = a + b;
+    document.getElementById('prin').innerHTML= "Tổng:" + tong;
+}
+function showResult2() {
+    let a = parseInt( document.getElementById("number1").value);
+    let b = parseInt(document.getElementById("number2").value);
+    let hieu = a - b;
+    document.getElementById('prin').innerHTML= "Hiệu:" + hieu;
+}
+function showResult3() {
+    let a = parseInt( document.getElementById("number1").value);
+    let b = parseInt(document.getElementById("number2").value);
+    let tich = a*b ;
+    document.getElementById('prin').innerHTML= "Tích:" + tich;
+}
+function showResult4() {
+    let a = parseInt( document.getElementById("number1").value);
+    let b = parseInt(document.getElementById("number2").value);
+    let thuong = a/b;
+    document.getElementById('prin').innerHTML= "Thương:" + thuong;
+}
+</script>
+</body>
+</html>
