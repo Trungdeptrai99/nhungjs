@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính chỉ số cân nặng</title>
+</head>
+<body>
+ <script>
+     let a =  +prompt('Nhập vào cân nặng');
+     let b=  +prompt('Nhập vào chiều cao');
+     let BMI = a/(b*b);
+     if(BMI>=30)
+         BMI = 'Obese'
+     else  if(BMI>=25)
+         BMI = 'Overweight'
+            else if(BMI>=18.5)
+                BMI = 'Normal'
+                 else BMI = 'Interpretation'
+        alert(BMI)
+ </script>
+</body>
+</html>
