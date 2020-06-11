@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành sự kiện bàn phím</title>
+</head>
+<body onload="docReady()">
+        <img id="anh" src="vang.jpg" width="360" height="260" style="position: absolute; left: 200px;top: 200px;"/>
+        <script>
+            let Anh = document.getElementById('anh')
+    function nhannuttren(){
+        Anh.style.top = parseInt(Anh.style.top) -5 + 'px';
+    }
+    function nhannutduoi() {
+        Anh.style.top = parseInt(Anh.style.top) +5 +'px';
+    }
+    function nhannutphai() {
+        Anh.style.left = parseInt(Anh.style.left) + 5 +'px';
+    }
+    function nhannuttrai() {
+        Anh.style.left = parseInt(Anh.style.left) - 5 +'px';
+    }
+    function Nhanlenhtubanphim(evt) {
+        switch (evt.keyCode) {
+            case 87:
+                nhannuttren()
+                break;
+            case 83:
+                nhannutduoi();
+                break;
+            case 68:
+                nhannutphai();
+                break;
+            case 65:
+                nhannuttrai();
+                break;
+        }
+    }
+    function docReady() {
+        window.addEventListener('keydown',Nhanlenhtubanphim);
+    }
+    </script>
+</body>
+</html>
