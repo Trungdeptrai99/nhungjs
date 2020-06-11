@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính số ngày trong tháng</title>
+</head>
+<body>
+
+    <form>
+        <input id="thang" type="text" value="" >
+        <input type="button" value="Tính số ngày" onclick="tinhthang()">
+    </form>
+    <div id="nul"> </div>
+    <script>
+        function tinhthang() {
+        let Thang = parseInt(document.getElementById('thang').value);
+        switch (Thang) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                document.getElementById('nul').innerHTML = '<h1> Tháng'+ Thang +'có 31 ngày </h1>'
+               break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                document.getElementById('nul').innerText = 'Tháng'+ Thang + 'có 30 ngày';
+                break;
+            case 2:
+                document.getElementById('nul').innerText ='Tháng 2 có 28 hoặc 29 ngày' ;
+                break;
+        }
+    }
+
+</script>
+
+</body>
+</html>
