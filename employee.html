@@ -6,8 +6,8 @@
 </head>
 <body>
 <script>
-    let message = (login == 'Employee') ?
-        'Hello' : (login == 'Director') ? 'Greetings' : (login == '') ? 'No login' : '';
+    let login = prompt('Nhập vào')
+    let message = (login == 'Employee') ? 'Hello' : (login == 'Director') ? 'Greetings' : (login == '') ? 'No login' : '';
     alert(message)
 
 </script>

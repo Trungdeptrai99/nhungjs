@@ -10,7 +10,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddced766-2db7-4232-9327-3241d3dd1d29" name="Default Changelist" comment="" />
+    <list default="true" id="ddced766-2db7-4232-9327-3241d3dd1d29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Baitapmaytinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ungdungchuyendoitien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapmaytinhdongian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testtoantu3ngoi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thuchanheventmouse.html" beforeDir="false" afterPath="$PROJECT_DIR$/Thuchanheventmouse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javatoantu.js" beforeDir="false" afterPath="$PROJECT_DIR$/javatoantu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/test2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thuchanhkhaibaovasungdungbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/thuchanhkhaibaovasungdungbien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thuchanhtoantu.html" beforeDir="false" afterPath="$PROJECT_DIR$/thuchanhtoantu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ungdungmaytinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/ungdungmaytinh.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +87,86 @@
       <workItem from="1591554073216" duration="585000" />
       <workItem from="1591578959624" duration="5116000" />
       <workItem from="1591588555600" duration="712000" />
+      <workItem from="1591685145840" duration="4038000" />
+      <workItem from="1591716025800" duration="7183000" />
+      <workItem from="1591750505782" duration="714000" />
+      <workItem from="1591751334317" duration="13806000" />
+      <workItem from="1591803497148" duration="798000" />
+      <workItem from="1591806040177" duration="312000" />
+      <workItem from="1591837507590" duration="332000" />
+      <workItem from="1591837852321" duration="18335000" />
     </task>
+    <task id="LOCAL-00001" summary="Bai tap ung dung may tinh">
+      <created>1591752174889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591752174889</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Thuc hanh kiem tra nam nhuan">
+      <created>1591761809622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591761809623</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Thuc hanh kiem luyen tap cau truc if eles">
+      <created>1591762684173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591762684173</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Thuc hanh kiem luyen tap cau truc if eles">
+      <created>1591771963516</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591771963516</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Thực hành switch case">
+      <created>1591783329860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591783329860</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Thực hành toan tu 3 ngoi">
+      <created>1591785123001</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591785123001</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Thuc hanh su kien chuot">
+      <created>1591838875409</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591838875409</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Thuc hanh su kien ban phim">
+      <created>1591845693684</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591845693684</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Tinh chi so can nang">
+      <created>1591857282500</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591857282500</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tinh so ngay trong thang">
+      <created>1591862640201</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591862640201</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +184,18 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Bai tap ung dung may tinh" />
+    <MESSAGE value="Thuc hanh kiem tra nam nhuan" />
+    <MESSAGE value="Thuc hanh kiem luyen tap cau truc if eles" />
+    <MESSAGE value="Thực hành switch case" />
+    <MESSAGE value="Thực hành toan tu 3 ngoi" />
+    <MESSAGE value="Thuc hanh su kien chuot" />
+    <MESSAGE value="Thuc hanh su kien ban phim" />
+    <MESSAGE value="Tinh chi so can nang" />
+    <MESSAGE value="Tinh so ngay trong thang" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tinh so ngay trong thang" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591329129774">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -99,13 +205,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1591329009867" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1591548089568">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1591771732965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591548089568" />
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1591342387715">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591771732965" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1591846569588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591342387715" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591846569588" />
   </component>
 </project>
