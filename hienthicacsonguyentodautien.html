@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Các số nguyên tố nè</title>
+</head>
+<body>
+    <script>
+        let numbers = +prompt("Nhập số lượng số nguyên tố vào đey bạn eiiii:");
+        let count = 0;
+        let N = 2;
+        let songuyento=true;
+        let giatri = 0
+        while (count<numbers){
+            songuyento= true;
+            for (i=2;i<N ;i++){
+               if (N%i==0||N<2)
+                   songuyento= false;
+
+           }
+            if (songuyento==true){
+               giatri = N;
+               document.write("Số nguyên tố là" + giatri +"<br>")
+                count++}
+                N++
+        }
+    </script>
+</body>
+</html>
