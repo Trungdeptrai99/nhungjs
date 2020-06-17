@@ -2,9 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Từ điển nè bạn ơi</title>
 </head>
 <body>
-$END$
+    <script>
+        let c = prompt("Nhập từ vào đây bạn eiiiiii,chỉ viết thường đừng viết hoa nhé!")
+        let english = ["handsome","potato","big","duck"];
+        let vietnamese = ["đẹp trai","khoai","to","con vịt"];
+        let ketqua
+            for(let i =0;i<english.length;i++) {
+          ketqua = true;
+          if (c == english[i]) {
+              document.write("Từ bạn cần đây bạn eiiiii: " + vietnamese[i]);
+              break;
+          }
+          if (c === vietnamese[i]) {
+              document.write("Từ bạn cần đây bạn eiiiii: " + english[i]);
+              break;
+          }
+          if ((c!==english[i])&&(c!== vietnamese[i])) {
+              ketqua = false;
+          }
+      }
+      if (ketqua==false){
+          document.write("Mình chệu bạn ei")
+      }
+    </script>
 </body>
 </html>
