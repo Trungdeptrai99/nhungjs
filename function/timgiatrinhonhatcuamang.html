@@ -6,18 +6,17 @@
 </head>
 <body>
     <script>
-        function minArray(arr) {
-            let min = arr[0];
-            for(var i = 1; i < arr.length; i++){
-                if(arr[i] < min){
-                    min = arr[i];
-                }
-            }
-            return min;
-        }
-        let arr1 = [3, 5, 1, 8, -3, 7, 8];
-        let min = minArray(arr1);
-        alert(min);
+       function  arrmin(arr) {
+           min = arr[0];
+           for(i=0;i<arr.length;i++) {
+               if (arr[i] < min) {
+                   min = arr[i];
+               }
+           }
+           return min
+       }
+       let mang = [0,1,2,6,-3,7];
+       document.write(arrmin(mang))
     </script>
 </body>
 </html>
