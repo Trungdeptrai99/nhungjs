@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+     function kiemtrasonguyento(numbers) {
+            numbers= parseFloat(numbers) ;
+            for(let N=2;N<numbers;N++) {
+              let chuoi = " "
+                let songuyento = true
+                for (let j = 2;j< N; j++) {
+                if (N%j==0) {
+                    songuyento = false;
+                }
+
+            }
+            if (songuyento == true) {
+                chuoi += document.write(N +" ")
+            }
+        }
+    }
+            let d = +prompt("nhập giá trị max")
+            kiemtrasonguyento(d)
+</script>
+
+</body>
+</html>

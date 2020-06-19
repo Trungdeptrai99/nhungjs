@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function kiemtrasonguyento(numbers) {
+            numbers= parseFloat(numbers) ;
+            for(let N=2;N<numbers;N++) {
+                let chuoi = " "
+                let songuyento = true
+                for (let j = 2;j<=Math.sqrt(N); j++) {
+                    if (N%j==0) {
+                        songuyento = false;
+                    }
+
+                }
+                if (songuyento == true) {
+                    chuoi += document.write(N +" ")
+                }
+            }
+        }
+
+
+    </script>
+    <input type="number" value="Nhập giá trị max ở đây" id="indexmax">
+    <input type="button" value="Click here" onclick="kiemtrasonguyento(document.getElementById('indexmax').value)">
+
+</body>
+</html>

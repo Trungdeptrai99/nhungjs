@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  Meters ở đây bạn ei  <input type="number" id="value1" placeholder="Meters"
+                           oninput="metersToFeet(this.value)"> bằng   <span id="text1"></span> <br>
+  Feet ở đây bạn ei  <input type="number" id="value2" placeholder="Feet"
+                            oninput="feetToMeters(this.value)"> bằng  <span id="text2" ></span>
+    <script>
+        function metersToFeet(a) {
+
+        document.getElementById("text1").innerHTML= a*0.305+ " feet bạn eiii"
+        }
+        function feetToMeters(a) {
+            document.getElementById("text2").innerHTML= a*3.279 + " met bạn eiii"
+        }
+    </script>
+</body>
+</html>

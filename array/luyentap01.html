@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let a = +prompt("Nhập vào đây số phần tử bạn ei");
+        let arr = [];
+        let count= 0;
+        let c=0;
+        let max= 0;
+        let tong =0;
+        let b= 0;
+        for(let i=0;i<a;i++){
+            b = +prompt("Nhập từng phần tử bạn ơi");
+            arr[i]= b ;
+        }
+        for (i=0;i<arr.length;i++){
+             max=arr[0]
+            if(arr[i]>=10){
+                document.write(arr[i]+" ")
+                count++}
+            if(max<arr[i]){
+                max=arr[i];
+                c=i;
+            }
+            tong = tong +arr[i];
+            }
+        arr.sort(function (e,f) {
+            return e-f;
+        })
+        arr.reverse();
+        document.write("<br>"+"Số lớn nhất là: " + max)
+        document.write("<br>"+"ở vị trí: " +c);
+        document.write("<br>"+ "Số lượng số lớn hơn 10 là: " +count)
+        document.write("<br>"+"Trung bình = " + tong/a )
+        document.write("<br>"+arr.join(" "))
+    </script>
+</body>
+</html>

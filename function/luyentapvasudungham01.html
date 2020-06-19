@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1-2-3</title>
+</head>
+<body>
+    <script>
+        function alertMessage() {
+            alert("Xin chao ban ei");
+
+        }
+        function returnNumber(a) {
+            a= parseInt(a);
+            a= a+1;
+            document.getElementById("numberhere").innerHTML= a;
+        }
+
+        function function3(a,b) {
+            c= parseFloat(a)
+            d= parseFloat(b)
+            if(c>d){
+               alert();
+           }
+           if(c<=d) {
+                document.getElementById("write3").innerHTML= c+d;
+           }
+        }
+    </script>
+    <h1>Bài 1</h1>  <input type="button" value="Click đây để gọi hàm bạn eiii" onclick="alertMessage()"></input> <br>
+    <h1>Bài 2</h1>  <input type="number" value=""
+                           onchange="returnNumber(this.value)"
+                           oninput="returnNumber(this.value)">
+                        <span id="numberhere"></span> <br>
+     <h1>Bài 3</h1>
+                    <input type="number" id="number1" value="" placeholder="Nhập số thứ nhất vào đây bẹn eii"  >
+                    <input type="number" id="number2" value="" placeholder="Nhập số thứ hight vào đây bạn eiii" >
+                    <input  type="button" value="Click để chạy chương trình nào bạn nhỏ"
+                            onclick="function3(document.getElementById('number1').value,
+                            document.getElementById('number2').value)">
+                        <span id="write3"></span>
+</body>
+</html>

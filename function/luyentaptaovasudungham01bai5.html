@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+    let listStar1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let listStar2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"]
+
+        function checkStars(a) {
+            let name = true
+            for (let i = 0; i < listStar1.length; i++) {
+                name = true
+                if (a == listStar1[i]) {
+                    document.write(listStar2[i]);
+                    break;
+                } else {
+                    name = false;
+                }
+            }
+                if(name==false){
+                    document.write("Mình chịu bạn ei")
+                }
+        }
+
+
+        let starName= prompt("Nhập tên ngôi sao vào đây bạn ei");
+           onload(checkStars(starName))
+
+    </script>
+</body>
+</html>
