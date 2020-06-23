@@ -7,13 +7,14 @@
 <body>
 <table border="5" width="300"  height="350">
     <tr >
-        <th colspan="4"  height="150"> <div id="trong"></div></th>
+        <th colspan="4" id="trong" height="100" >
+
     </tr>
     <tr>
-        <th> <input type="button" value="1" onclick="number1()"></th>
+        <th> <input type="button" value="1" onclick="number1(value)"></th>
         <th> <input type="button" value="2" onclick="number2()"></th>
         <th> <input type="button" value="3" onclick="number3()"></th>
-        <th> <input type="button" value="+" onclick=""></th>
+        <th> <input type="button" value="+" onclick="cong()"></th>
     </tr>
     <tr>
         <th> <input type="button" value="4" onclick="number4()"></th>
@@ -34,8 +35,16 @@
         <th> <input type="button" value="/" onclick=""></th>
     </tr>
 <script>
+   let a= 0
+    function cong() {
+       a = document.getElementById("trong").value
+       //document.getElementById("trong"+"").innerText = a + "+"
+
+
+   }
     function number1() {
-    document.getElementById("trong").innerText= 1
+       console.log();
+    document.getElementById("trong").;
     }
     function number2() {
         document.getElementById("trong").innerText= 2

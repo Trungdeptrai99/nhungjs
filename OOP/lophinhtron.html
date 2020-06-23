@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let Circle = function (bankinh) {
+            this.bankinh = bankinh;
+            this.getBankinh= function () {
+                return bankinh;
+
+            }
+            this.getDientich = function() {
+                return Math.PI * bankinh * bankinh;
+            }
+        };
+        let circle = new Circle(2);
+        let bankinh = circle.getBankinh(); // 2
+
+        let dientich = circle.getDientich(); // 12.566370614359172
+        alert("bankinh: " + bankinh + "; Dien tich: " + dientich    );
+
+    </script>
+</body>
+</html>
