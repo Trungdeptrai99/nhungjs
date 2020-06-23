@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let Temperature = function(C){
+            this.C = C;
+            this.getC = function () {
+                return C;
+            }
+            this.getChangetoK = function () {
+                return (C + 273.15);
+
+            }
+            this.getChangetoF = function() {
+                return (C*(1.8) + 32);
+            }
+
+        }
+
+            let temperature = new Temperature(prompt("Nhập độ C đi nào bạn hiền: "));
+            let changetoF = temperature.getChangetoF();
+            let changetoK = temperature.getChangetoK();
+            let doC = temperature.getC();
+            document.write("Từ "+doC + "Chuyển sang độ F là: "+ changetoF +" Chuyển sang độ K là: "+ changetoK )
+
+    </script>
+</body>
+</html>

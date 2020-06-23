@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+dy>
+    <canvas id="myCanvas"id="myCanvas" width="1280" height="720" style="border:1px solid #d3d3d3;" ></canvas>
+    <script>
+        let Rectangle = function (height,weight) {
+            this.weight = weight;
+            this.height = height;
+            this.getPerimeter = function () {
+                return (weight+height)*2;
+            }
+            this.getAcreage = function () {
+                return weight*height;
+            }
+            this.getDraw = function () {
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.fillStyle = "#00ffe1";
+                ctx.fillRect(500,500,height,weight);
+            }
+        }
+        let rectangle = new Rectangle(+prompt("Nhập chiều dài vào đây"),+prompt("Nhập rộng vào đêii bạn eii"))
+        let chuvi = rectangle.getPerimeter();
+        let dientich = rectangle.getAcreage();
+        document.write("Chu vi là: " + chuvi );
+        document.write(" Diện tích là: "+ dientich)
+        rectangle.getDraw()
+    </script>
+</body>
+</html>

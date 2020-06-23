@@ -11,14 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddced766-2db7-4232-9327-3241d3dd1d29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/OOP/buildingDATECLASS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/funnycircle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/motadienthoai.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/motahinhchunhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/xaydunglopmotaTemperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/quanlysanpham.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vonglaplongnhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vonglaplongnhau.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/tudien.html" beforeDir="false" afterPath="$PROJECT_DIR$/array/tudien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitapmaytinhdongian.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitapmaytinhdongian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maytinhdemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/maytinhdemo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testarray.html" beforeDir="false" afterPath="$PROJECT_DIR$/testarray.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thuchanhvonglapwhile1.html" beforeDir="false" afterPath="$PROJECT_DIR$/thuchanhvonglapwhile1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vonglaplongnhau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/vonglaplongnhau2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/lophinhtron.html" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/lophinhtron.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,20 @@
       <workItem from="1592275811553" duration="1507000" />
       <workItem from="1592278192115" duration="7371000" />
       <workItem from="1592319862461" duration="2544000" />
-      <workItem from="1592356403452" duration="8758000" />
+      <workItem from="1592356403452" duration="11031000" />
+      <workItem from="1592367949517" duration="12242000" />
+      <workItem from="1592445056114" duration="2016000" />
+      <workItem from="1592450519006" duration="6719000" />
+      <workItem from="1592473222473" duration="2470000" />
+      <workItem from="1592494997557" duration="1613000" />
+      <workItem from="1592528673133" duration="18958000" />
+      <workItem from="1592623792781" duration="899000" />
+      <workItem from="1592710857246" duration="8000" />
+      <workItem from="1592729432077" duration="2096000" />
+      <workItem from="1592797768647" duration="480000" />
+      <workItem from="1592798309677" duration="437000" />
+      <workItem from="1592810509937" duration="1044000" />
+      <workItem from="1592877442798" duration="11858000" />
     </task>
     <task id="LOCAL-00001" summary="Bai tap ung dung may tinh">
       <created>1591752174889</created>
@@ -299,7 +312,42 @@
       <option name="project" value="LOCAL" />
       <updated>1592365276250</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Bai tap tu dien">
+      <created>1592365415571</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1592365415571</updated>
+    </task>
+    <task id="LOCAL-00030" summary="thuc hanh function">
+      <created>1592463480047</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1592463480047</updated>
+    </task>
+    <task id="LOCAL-00031" summary="thuc hanh function">
+      <created>1592464037753</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1592464037753</updated>
+    </task>
+    <task id="LOCAL-00032" summary="bai tap va luyen tap ham">
+      <created>1592554287015</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1592554287015</updated>
+    </task>
+    <task id="LOCAL-00033" summary="OOP">
+      <created>1592878556540</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1592878556540</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,9 +366,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bai tap ung dung may tinh" />
-    <MESSAGE value="Thuc hanh kiem tra nam nhuan" />
-    <MESSAGE value="Thuc hanh kiem luyen tap cau truc if eles" />
     <MESSAGE value="Thực hành switch case" />
     <MESSAGE value="Thực hành toan tu 3 ngoi" />
     <MESSAGE value="Thuc hanh su kien chuot" />
@@ -343,13 +388,16 @@
     <MESSAGE value="tao co caro" />
     <MESSAGE value="BAI TAP SU DUNG HAM CO SAN" />
     <MESSAGE value="Bai tap tu dien" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bai tap tu dien" />
+    <MESSAGE value="thuc hanh function" />
+    <MESSAGE value="bai tap va luyen tap ham" />
+    <MESSAGE value="OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592319920700">
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592455812031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592319920700" />
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592455812031" />
     <state width="498" height="398" key="SwitcherDM" timestamp="1591329009867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
