@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+          <div id="game"> </div>
+    <script>
+        var dx=Math.random()*(10-5)+5;
+        var dy=Math.random()*(10-5)+5;
+        function Hero(image, top, left, size){
+            this.image = image;
+            this.top = top;
+            this.left = left;
+            this.size = size;
+
+            this.getHeroElement = function(){
+                return '<img width="'+ this.size + '"' +
+                    ' height="'+ this.size + '"' +
+                    ' src="' + this.image +'"' +
+                    ' style="top: '+this.top+'px; left:'+this.left+'px;position:absolute;" />';
+            }
+
+
+            this.moveRight = function(){
+                this.left += dx;
+                console.log('ok: ' + this.left);
+            }
+            this.moveDown = function () {
+                this.top += dy;
+            }
+
+        }
+
+        var hero = new Hero('Trinhngo.jpg', 20, 30, 200);
+
+        function start1(){
+
+            hero.moveDown()
+            hero.moveRight();
+            if(hero.left<0||hero.left >= window.innerWidth - hero.size){
+                    dx= -dx
+                }
+            if(hero.top<0||hero.top>=window.innerHeight-hero.size){
+                    dy = -dy
+            }
+            document.getElementById('game').innerHTML = hero.getHeroElement();
+           requestAnimationFrame(start1)
+        }
+
+
+
+        start1()
+
+</script>
+
+</body>
+</html>

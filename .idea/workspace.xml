@@ -11,14 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddced766-2db7-4232-9327-3241d3dd1d29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP/buildingDATECLASS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/funnycircle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/motadienthoai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/motahinhchunhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/xaydunglopmotaTemperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/quanlysanpham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/AdamEva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/AdamEva.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/demogamdichuyen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/dichuyendoituong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/xaydunglopmophongdenpin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/lophinhtron.html" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/lophinhtron.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/buildingDATECLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/buildingDATECLASS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/motahinhchunhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/motahinhchunhat.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -114,7 +115,12 @@
       <workItem from="1592797768647" duration="480000" />
       <workItem from="1592798309677" duration="437000" />
       <workItem from="1592810509937" duration="1044000" />
-      <workItem from="1592877442798" duration="11858000" />
+      <workItem from="1592877442798" duration="15219000" />
+      <workItem from="1592988404717" duration="1140000" />
+      <workItem from="1592991736225" duration="261000" />
+      <workItem from="1592992009321" duration="11402000" />
+      <workItem from="1593006344245" duration="1224000" />
+      <workItem from="1593007754112" duration="9409000" />
     </task>
     <task id="LOCAL-00001" summary="Bai tap ung dung may tinh">
       <created>1591752174889</created>
@@ -347,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592878556540</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="update">
+      <created>1592897181066</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1592897181066</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +379,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Thực hành switch case" />
     <MESSAGE value="Thực hành toan tu 3 ngoi" />
     <MESSAGE value="Thuc hanh su kien chuot" />
     <MESSAGE value="Thuc hanh su kien ban phim" />
@@ -391,7 +403,8 @@
     <MESSAGE value="thuc hanh function" />
     <MESSAGE value="bai tap va luyen tap ham" />
     <MESSAGE value="OOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592455812031">
@@ -406,9 +419,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592139876353" />
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1592191836530">
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1593017754465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592191836530" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593017754465" />
   </component>
 </project>

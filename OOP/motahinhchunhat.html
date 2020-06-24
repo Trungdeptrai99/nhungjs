@@ -12,10 +12,10 @@ dy>
             this.weight = weight;
             this.height = height;
             this.getPerimeter = function () {
-                return (weight+height)*2;
+                return (this.weight+this.height)*2;
             }
             this.getAcreage = function () {
-                return weight*height;
+                return this.weight*this.height;
             }
             this.getDraw = function () {
                 var c = document.getElementById("myCanvas");
