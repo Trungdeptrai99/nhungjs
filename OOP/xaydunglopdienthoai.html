@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây dựng lớp mobile</title>
+</head>
+<body>
+<div id="nokia"></div>
+<div id="iPhone"></div>
+<script>
+    let Mobile = function (model, battery, inbox, drafts, sent) {
+        this.model = model;
+        this.battery = battery;
+        this.inbox = inbox;
+        this.drafts = drafts;
+        this.sent = sent;
+        this.checkTurn = function () {
+
+        }
+        this.turnOnOff = function () {
+
+        }
+        this.chargeBattery = function () {
+
+        }
+        this.textMess = function () {
+
+        }
+        this.receiveMess = function () {
+
+        }
+        this.sendMess = function () {
+
+        }
+        this.checkInbox = function () {
+
+        }
+        this.checkSent = function () {
+
+        }
+    }
+    function creatMobile(model, battery, inbox, drafts, sent) {
+        let new_mobile = new Mobile(model, battery, inbox, drafts, sent);
+        let mobile_view = '<table border="1">';
+        mobile_view += '<tr><th><h3>' + new_mobile.model + '</h3></th>';
+        mobile_view += '<th>' + new_mobile.battery + '%</th></tr>';
+        mobile_view += '<tr><td colspan="2">Inbox(' + new_mobile.inbox.length + ')</td></tr>';
+        mobile_view += '<tr><td colspan="2">Drafts(' + new_mobile.drafts.length + ')</td></tr>';
+        mobile_view += '<tr><td colspan="2">Sent(' + new_mobile.sent.length + ')</td></tr>';
+        return mobile_view;
+    }
+    let inbox_nokia = [
+        'Chào em anh đứng đây từ chiều',
+        'Tài khoản gốc của quý khách sắp hết',
+    ];
+    let drafts_nokia = [
+        '? Gì thế thằng nhóc?',"Tao đập vỡ mõm giờ"
+    ];
+    let sent_nokia = [];
+    let nokia = creatMobile('Lumia635', 100, inbox_nokia, drafts_nokia, sent_nokia);
+    document.getElementById('nokia').innerHTML = nokia;
+    document.write()
+</script>
+</body>
+</html>
