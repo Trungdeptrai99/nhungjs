@@ -35,13 +35,8 @@ function Human(name,gender,weight) {
         document.write( this.name+": " + string);
 
     }
-    this.Upweight = function () {
-        return this.weight++
-    }
-
-
-    this.eat = function (apple) {
-        apple.decrease();
+    this.eat = function (a) {
+        a.decrease();
         this.weight++;
     }
     this.getName = function () {
@@ -68,7 +63,7 @@ function storyofheaven() {
     eva.say("Thôi mình sợ nghiện lắm " + adam.getName()+ " à......"+"<br>");
     adam.say("Mình có " + apple.weight +" viên, mình cắn trước nha " +"<br>");
     while (apple.weight>0){
-        adam.eat(apple)
+        adam.eat(apple);
         adam.say( "Giờ còn "+apple.weight +" đây bạn ei, cắn đi không hết bây giờ!!!!! Chill vleuu bạn eiii "+"<br>");
         eva.eat(apple)
         eva.say("Mình làm 1 viên đây "+ adam.getName()+ " ơiiii. Bạn ơi kéo tôi xuống, tôi sắp bay ra qua trần nhà rồi" +"<br>");

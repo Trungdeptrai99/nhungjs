@@ -2,63 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bài tập tic tac toe</title>
+    <title>Tic Tac Toe</title>
 </head>
 <body>
-    <h3>Caro Game Simple</h3>
-    <p id="carogame" />
-    <input type="button" value="Người 1" onclick="changeValue()"> <br>
-    <input type="button" value="Người 2" onclick="changeValue2()">
-    <script>
-        let b = document.getElementById("carogame");
-
-        let board = [];
-        let data = "";
-        let data2="";
-        for (let i = 0; i < 5; i++) {
-            board[i] = new Array(" , " , "," , "," , "," , ",");
+<h3>Game Tic Tac Toe</h3>
+<div id="Result"></div>
+<p id="TicTacToe"></p>
+<script>
+    let game = document.getElementById('TicTacToe');
+    let board = [];
+    let datagame = '';
+    let flag = 1;
+    for (let i=0; i < 5; i++) {
+        board[i] = ['.', '.', '.', '.', '.'];
+    }
+    for (let i=0; i < 5; i++) {
+        datagame += '<br/>';
+        for (let j=0; j < 5; j++) {
+            datagame += board[i][j] + '&nbsp;&nbsp;';
         }
-
-        for (let i = 0; i < 5; i++) {
-            data += "<br/>";
-            for (let j = 0; j < 5; j++) {
-                data += board[i][j] + "&nbsp;&nbsp;";
+    }
+    datagame += '<br/><br/><input type="button" value="Play game" id="playgame" onclick="changeValue();">';
+    game.innerHTML = datagame;
+    function changeValue() {
+        let positionX = +prompt('X: ');
+        let positionY = +prompt('Y: ');
+        while (board[positionX][positionY] !== '.') {
+            alert('Error');
+            positionX = +prompt('X: ');
+            positionY = +prompt('Y: ');
+        }
+        datagame = '';
+        if (flag > 0) {
+            board[positionX][positionY] = 'x';
+        } else {
+            board[positionX][positionY] = 'o';
+        }
+        for (let i=0; i < 5; i++) {
+            datagame += '<br/>';
+            for (let j=0; j < 5; j++) {
+                datagame += board[i][j] + '&nbsp;&nbsp;';
             }
         }
-
-        data += "<br/><br/><input type='button' value='Người 1' onclick='changeValue()'>"
-        data2 += "<br/><br/><input type='button' value='Người 2' onclick='changeValue()'>"
-        b.innerHTML = data;
-
-        function changeValue() {
-            let positionX = prompt("X: ");
-            let positionY = prompt("Y: ");
-            data = "";
-            board[positionX][positionY] = "X";
-            for (let i = 0; i < 5; i++) {
-                data += "<br/>";
-                for (let j = 0; j < 5; j++) {
-                    data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+        datagame += '<br/><br/><input type="button" value="Play game" id="playgame" onclick="changeValue();">';
+        game.innerHTML = datagame;
+        flag = -flag;
+        // Kiểm tra thắng
+        for (let i=1; i < 5; i++) {
+            for (let j=0; j < 5; j++) {
+                if (((board[i][j] != '.') && (board[i][j] == board[i][j-1]) && (board[i][j] == board[i][j+1]))
+                    || ((board[i][j] != '.') && (board[i][j] == board[i-1][j]) && (board[i][j] == board[i+1][j]))
+                    || ((board[i][j] != '.') && (board[i][j] == board[i-1][j-1]) && (board[i][j] == board[i+1][j+1]))
+                    || ((board[i][j] != '.') && (board[i][j] == board[i-1][j+1]) && (board[i][j] == board[i+1][j-1]))) {
+                    if (flag < 0) {
+                        document.getElementById('Result').innerText = 'x win';
+                        document.getElementById('playgame').onclick = '';
+                    } else {
+                        document.getElementById('Result').innerText = 'o win';
+                        document.getElementById('playgame').onclick = '';
+                    }
                 }
             }
-            data += "<br/><br/><input type='button' value='Người 1' onclick='changeValue()'>"
-            b.innerHTML = "<hr/>" + data;
         }
-
-        function changeValue2() {
-            let positionX = prompt("X: ");
-            let positionY = prompt("Y: ");
-            data2 = "";
-            board[positionX][positionY] = "Y";
-            for (let i = 0; i < 5; i++) {
-                data2 += "<br/>";
-                for (let j = 0; j < 5; j++) {
-                    data2 += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+        for (let j=1; j<5; j++) {
+            if ((board[0][j] != '.') && (board[0][j] == board[0][j-1]) && (board[0][j] == board[0][j+1])) {
+                if (flag < 0) {
+                    document.getElementById('Result').innerText = 'x win';
+                    document.getElementById('playgame').onclick = '';
+                } else {
+                    document.getElementById('Result').innerText = 'o win';
+                    document.getElementById('playgame').onclick = '';
                 }
             }
-            data2 += "<br/><br/><input type='button' value='Người 2' onclick='changeValue2()'>"
-            b.innerHTML = "<hr/>" + data2;
         }
-    </script>
+    }
+</script>
 </body>
 </html>
