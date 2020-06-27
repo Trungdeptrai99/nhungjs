@@ -7,41 +7,60 @@
     <body>
     <canvas id="myCanvas" width="1368px" height="768px" style="border:1px solid #d3d3d3;"></canvas>
     <script>
+        var dx= 5;
+        var dy= 5;
+        var tdx=0;
+        var tdy=0;
+        var ctx = document.getElementById("myCanvas").getContext("2d");
         function Circle(x, y, radius){
             this.x = x;
             this.y = y;
             this.radius = radius;
         }
 
-        function getRandomHex(){
-            return Math.floor(Math.random()*255);
-        }
+
+         Math.floor(Math.random()*255)
 
         function getRandomColor(){
-            var red = getRandomHex();
-            var green = getRandomHex();
-            var blue = getRandomHex();
+            var red = Math.floor(Math.random()*255);
+            var green =Math.floor(Math.random()*255);
+            var blue = Math.floor(Math.random()*255);
             return "rgb(" + red + "," + blue + "," + green +")";
         }
 
-        function createCircle(){
+
+        function createCircle() {
             var ctx = document.getElementById("myCanvas").getContext("2d");
-            var radius = Math.floor(Math.random() *(200-100)+100);
+            var radius = 50;
             var color = getRandomColor();
-            var x = Math.random() * (1000-200)+200;
-            var y = Math.random() * (550-200)+200;
-            var circle= new Circle(x, y, radius);
+            var x = tdx;
+            var y = tdy;
+
+            var circle = new Circle(x, y, radius);
             ctx.beginPath();
             ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
             ctx.fillStyle = color;
             ctx.fill();
         }
-        function createMultipleCircle(){
-            for(var i = 0; i < 30; i++){
-                createCircle();
+        function draw() {
+            ctx.clearRect(0,0,1368,768)
+
+            createCircle()
+            tdx= tdx+dx;
+            tdy= tdy+dy;
+            if(tdx<0||tdx>1368){
+                dx=-dx;
             }
+            if(tdy<0||tdy>768){
+                dy= -dy;
+            }
+            requestAnimationFrame(draw)
+
         }
-                createMultipleCircle()
+
+
+        draw()
+
 
 
     </script>

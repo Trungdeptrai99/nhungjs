@@ -18,7 +18,7 @@
             this.getHeroElement = function(){
                 return '<img width="'+ this.size + '"' +
                     ' height="'+ this.size + '"' +
-                    ' src="' + this.image +'"' +
+                    ' src="' +  this.image +'"' +
                     ' style="top: '+this.top+'px; left:'+this.left+'px;position:absolute;" />';
             }
 
@@ -46,7 +46,7 @@
                     dy = -dy
             }
             document.getElementById('game').innerHTML = hero.getHeroElement();
-           requestAnimationFrame(start1)
+            requestAnimationFrame(start1)
         }
 
 
