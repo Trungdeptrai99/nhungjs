@@ -1,8 +1,8 @@
-var widthbar= 200;
-var heightbar=20;
+var widthbar= 300;
+var heightbar=30;
 var tdxbar = 1600/2-widthbar/2;
 var tdybar= 900-heightbar;
-var speedbar = 1;
+var speedbar = 20;
 function Bar(x,y,width,height,speed) {
     this.speed= speed;
     this.x=x;
@@ -16,6 +16,15 @@ function Bar(x,y,width,height,speed) {
         tdxbar= tdxbar+speedbar
     }
 }
+        document.addEventListener("keydown",function (event) {
+            if(event.keyCode==37){
+            console.log("Hihi")
+            tdxbar= tdxbar- speedbar;
+        }
+        if(event.keyCode==39){
+            tdxbar= tdxbar+ speedbar;
+        }
+        })
 function drawnBar() {
     var x =tdxbar ;
     var y = tdybar;
@@ -23,14 +32,8 @@ function drawnBar() {
     var height = heightbar;
     var speed = speedbar;
     var bar = new Bar(x, y, width, height, speed)
-    document.addEventListener("keydown",function (event) {
-        if(event.keyCode==37){
-            bar.moveLeft()
-        }
-        if(event.keyCode==39){
-            bar.moveRight()
-        }
-    })
+
+
     ctx.beginPath()
     ctx.fillStyle = getRandomColor();
     ctx.fillRect(bar.x,bar.y,bar.width ,bar.height);
