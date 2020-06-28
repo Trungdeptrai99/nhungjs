@@ -5,30 +5,24 @@
     <title>Title</title>
 </head>
     <body>
-    <canvas id="myCanvas" width="1368px" height="768px" style="border:1px solid #d3d3d3;"></canvas>
+    <canvas id="myCanvas" width="768px" height="768" style="border:1px solid #d3d3d3;"></canvas>
     <script>
         var dx= 5;
         var dy= 5;
-        var tdx=0;
-        var tdy=0;
+        var tdx=50;
+        var tdy=50;
         var ctx = document.getElementById("myCanvas").getContext("2d");
         function Circle(x, y, radius){
             this.x = x;
             this.y = y;
             this.radius = radius;
         }
-
-
-         Math.floor(Math.random()*255)
-
         function getRandomColor(){
             var red = Math.floor(Math.random()*255);
             var green =Math.floor(Math.random()*255);
             var blue = Math.floor(Math.random()*255);
-            return "rgb(" + red + "," + blue + "," + green +")";
+            return  "rgb(" + red + "," + blue + "," + green +")"
         }
-
-
         function createCircle() {
             var ctx = document.getElementById("myCanvas").getContext("2d");
             var radius = 50;
@@ -48,7 +42,7 @@
             createCircle()
             tdx= tdx+dx;
             tdy= tdy+dy;
-            if(tdx<0||tdx>1368){
+            if(tdx<0||tdx>768){
                 dx=-dx;
             }
             if(tdy<0||tdy>768){
@@ -57,12 +51,7 @@
             requestAnimationFrame(draw)
 
         }
-
-
         draw()
-
-
-
     </script>
     </body>
 </html>
