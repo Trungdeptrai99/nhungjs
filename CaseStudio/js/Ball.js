@@ -18,19 +18,21 @@ function Circle(x, y, radius) {
            if (tdx < inputradius || tdx > 1600-inputradius) {
         dx = -dx;
     }
-     if (tdy < inputradius || tdy > 900- inputradius) {
+     if (tdy < inputradius ) {
         dy = -dy;}
+     if(tdy >= 900- inputradius){
+         isGameOver= true;
+     }
     }
     }
-
-
-function getRandomColor(){
-    var red = Math.floor(Math.random()*255);
-    var green =Math.floor(Math.random()*255);
-    var blue = Math.floor(Math.random()*255);
-    return  "rgb(" + red + "," + blue + "," + green +")"
-}
-
+    //lấy màu đổ cho canvas
+    function getRandomColor(){
+        var red = Math.floor(Math.random()*255);
+        var green =Math.floor(Math.random()*255);
+        var blue = Math.floor(Math.random()*255);
+        return  "rgb(" + red + "," + blue + "," + green +")"
+    }
+        //Tạo bóng
     function createBall() {
         var ctx = document.getElementById("myCanvas").getContext("2d");
         var radius = inputradius;
