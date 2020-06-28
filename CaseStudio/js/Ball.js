@@ -1,8 +1,8 @@
-var dx= 5;
-var dy= 5;
+var dx= Math.random()*(7-5)+5;
+var dy= Math.random()*(7-5)+5;
 var inputradius= 30;
-var tdx=50;
-var tdy=50;
+var tdx=800;
+var tdy=835;
 var ctx = document.getElementById("myCanvas").getContext("2d");
 function Circle(x, y, radius) {
     this.x = x;
@@ -20,7 +20,7 @@ function Circle(x, y, radius) {
     }
      if (tdy < inputradius ) {
         dy = -dy;}
-     if(tdy >= 900- inputradius){
+     if(tdy > 900- inputradius){
          isGameOver= true;
      }
     }

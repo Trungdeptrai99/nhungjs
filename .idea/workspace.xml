@@ -11,30 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddced766-2db7-4232-9327-3241d3dd1d29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP/Trinhngo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/switchAndLamp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/xaydunglopdienthoai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gamepuzzle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maytinh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maytinhdongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testtttt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ungdungvui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/first2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/first3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/five1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/five2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/five3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/four1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/four2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/four3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/three1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/three2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/three3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/two1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/two2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ảnh/two3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudio/js/Viengach.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudio/js/Ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Ball.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudio/js/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudio/js/gameboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/gameboard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -69,6 +52,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -141,7 +125,15 @@
       <workItem from="1593020369042" duration="605000" />
       <workItem from="1593021055055" duration="3238000" />
       <workItem from="1593024755940" duration="674000" />
-      <workItem from="1593054778857" duration="3329000" />
+      <workItem from="1593054778857" duration="13933000" />
+      <workItem from="1593135058870" duration="34041000" />
+      <workItem from="1593267346717" duration="15174000" />
+      <workItem from="1593283935412" duration="4471000" />
+      <workItem from="1593288973283" duration="4972000" />
+      <workItem from="1593294703056" duration="3053000" />
+      <workItem from="1593314583851" duration="14488000" />
+      <workItem from="1593339496170" duration="13183000" />
+      <workItem from="1593366752748" duration="697000" />
     </task>
     <task id="LOCAL-00001" summary="Bai tap ung dung may tinh">
       <created>1591752174889</created>
@@ -395,7 +387,56 @@
       <option name="project" value="LOCAL" />
       <updated>1593059054282</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="update">
+      <created>1593059113720</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1593059113720</updated>
+    </task>
+    <task id="LOCAL-00038" summary="update">
+      <created>1593233125687</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1593233125687</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update">
+      <created>1593338377283</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1593338377283</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update">
+      <created>1593339160348</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1593339160348</updated>
+    </task>
+    <task id="LOCAL-00041" summary="update">
+      <created>1593339305245</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1593339305245</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update">
+      <created>1593339591013</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1593339591013</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update">
+      <created>1593348437235</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1593348437235</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,9 +478,9 @@
     <MESSAGE value="thuc hanh function" />
     <MESSAGE value="bai tap va luyen tap ham" />
     <MESSAGE value="OOP" />
-    <MESSAGE value="update" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592455812031">
@@ -450,13 +491,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1591329009867" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1592139876353">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1593346006954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592139876353" />
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1593020653362">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593346006954" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1593335108784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593020653362" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593335108784" />
   </component>
 </project>

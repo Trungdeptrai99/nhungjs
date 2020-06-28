@@ -18,22 +18,22 @@ function Bar(x,y,width,height,speed) {
     this.isMovingLeft= false;
     this.isMovingRight= false;
 }     // Bắt sự kiện cho thanh chắn
-document.addEventListener("keydown",function (event) {
-    if(event.keyCode==37){
-        tdxbar= tdxbar-speedbar;
-    }
-    if(event.keyCode==39){
-        tdxbar= tdxbar+ speedbar;
-    }
-    console.log(tdx)
-    if(tdxbar>=1600-widthbar){
+        document.addEventListener("keydown",function (event) {
+            if(event.keyCode==37){
+                tdxbar= tdxbar-speedbar;
+            }
+            if(event.keyCode==39){
+                tdxbar= tdxbar+ speedbar;
+            }
 
-        tdxbar =1300 ;
-    }
-    if(tdxbar<=0){
-        tdxbar=0;
-    }
-})
+            if(tdxbar>=1600-widthbar){
+
+                tdxbar =1300 ;
+            }
+            if(tdxbar<=0){
+                tdxbar=0;
+            }
+    })
 // Tạo thanh chắn
 function createBar() {
     var x =tdxbar ;
