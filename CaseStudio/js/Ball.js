@@ -4,7 +4,9 @@ var inputradius= 30;
 var tdx=800;
 var tdy=835;
 var ctx = document.getElementById("myCanvas").getContext("2d");
-function Circle(x, y, radius) {
+var maxLive = 3;
+
+function Ball(x, y, radius) {
     this.x = x;
     this.y = y;
     this.radius = radius;
@@ -21,7 +23,14 @@ function Circle(x, y, radius) {
      if (tdy < inputradius ) {
         dy = -dy;}
      if(tdy > Board.height- inputradius){
-         isGameOver= true;
+         maxLive--;
+         if(maxLive>0){
+             tdx=800;
+             tdy=835;
+             tdxbar = Board.width/2-widthbar/2;
+             tdybar= Board.height-heightbar;
+         }
+         else isGameOver= true;
      }
     }
     }
@@ -39,11 +48,11 @@ function Circle(x, y, radius) {
         var color = getRandomColor();
         var x = tdx;
         var y = tdy;
-        var circle = new Circle(x, y, radius);
-        circle.move();
-        circle.changeDirection()
+        var ball = new Ball(x, y, radius);
+        ball.move();
+         ball.changeDirection()
         ctx.beginPath();
-        ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
+        ctx.arc(ball.x, ball.y, ball.radius, 0, 2 * Math.PI);
         ctx.fillStyle = color;
         ctx.fill();
     }

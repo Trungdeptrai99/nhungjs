@@ -9,17 +9,26 @@
     var playerScore = 0;
     var maxScore = brickConfig.totalCol*brickConfig.totalRow
     function impact(){
-        if(tdx+inputradius>tdxbar&&tdx+inputradius<tdxbar+widthbar+22.5&&tdy+inputradius>Board.height-inputradius+7.5){
+        if(tdx+inputradius>tdxbar-inputradius*Math.sqrt(2)&&tdx+inputradius<tdxbar+widthbar+inputradius*Math.sqrt(2)
+            &&tdy+inputradius>=Board.height-inputradius+7.5){
             dy=-dy;
         }
     }
 
+    function drawPlayScoreAndLive() {
+        ctx.beginPath();
+        ctx.font='35px verdana'
+        ctx.fillStyle = "#00ffe1";
+        ctx.fillText("Score: "+playerScore +" Lives: "+ maxLive,Board.width-350,60,1000);
+    }
     function draw(){
     if(!isGameOver) {
         ctx.clearRect(0, 0, Board.width, Board.height);
         createBall();
         createBar();
         drawBricks();
+        drawPlayScoreAndLive();
+        moveBar();
         impact();
         impactBrick();
         requestAnimationFrame(draw)
@@ -29,8 +38,9 @@
         alert("YOU WIN!!!" +" SCORE "+playerScore+"!!!" );
             document.location.reload();
     }   else {
-            alert("YOU LOSE!!! " + "Your score is " + playerScore + "!");
-            document.location.reload();
+
+             alert("YOU LOSE!!! " + "Your score is " + playerScore + "!");
+             document.location.reload();
         }
     }
   }

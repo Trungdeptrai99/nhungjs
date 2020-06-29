@@ -45,8 +45,8 @@ function drawBricks(){
             }
             })
            }
-    function drawScore(){
 
-    }
+
+
 //2* Offset + 5width + 5*magin = 1600;
 // offset =magin =100

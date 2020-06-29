@@ -18,23 +18,35 @@ function Bar(x,y,width,height,speed) {
     this.isMovingLeft= false;
     this.isMovingRight= false;
 
-}     // Bắt sự kiện cho thanh chắn
-        document.addEventListener("keydown",function (event) {
-            if(event.keyCode==37){
-                tdxbar= tdxbar-speedbar;
-            }
-            if(event.keyCode==39){
-                tdxbar= tdxbar+ speedbar;
-            }
-
-            if(tdxbar>=Board.width-widthbar){
-
-                tdxbar =Board.width-widthbar ;
-            }
-            if(tdxbar<=0){
-                tdxbar=0;
-            }
-    })
+}
+let rightPressed = false;
+let leftPressed = false;
+document.addEventListener("keydown", keyDown, false);
+document.addEventListener("keyup", keyUp, false);
+function keyDown(e) {
+    if(e.key == "ArrowRight") {
+        rightPressed = true;
+    }
+    else if( e.key == "ArrowLeft") {
+        leftPressed = true;
+    }
+}
+function keyUp(e) {
+    if( e.key == "ArrowRight") {
+        rightPressed = false;
+    }
+    else if( e.key == "ArrowLeft") {
+        leftPressed = false;
+    }
+}
+    function moveBar  () {
+    if(rightPressed && tdxbar < Board.width-widthbar) {
+        tdxbar += 15;
+    }
+    else if(leftPressed && tdxbar > 0) {
+        tdxbar -= 15;
+    }
+}
 // Tạo thanh chắn
 function createBar() {
     var x =tdxbar ;
