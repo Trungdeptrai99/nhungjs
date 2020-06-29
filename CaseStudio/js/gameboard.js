@@ -26,9 +26,17 @@
 
     } else {
         if(isGameWin){
-        alert("YOU WIN!!!" +" SCORE "+playerScore+"!!!" )
-    }   else
-        alert("YOU LOSE!!! "+"Your score is "+playerScore+ "!" );
+        alert("YOU WIN!!!" +" SCORE "+playerScore+"!!!" );
+
+    }   else {
+            alert("YOU LOSE!!! " + "Your score is " + playerScore + "!");
+            document.location.reload();
+        }
     }
   }
-
+function iterView() {
+    drawBricks();
+    createBall();
+    createBar();
+}
+iterView()

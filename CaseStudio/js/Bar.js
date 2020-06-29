@@ -17,6 +17,7 @@ function Bar(x,y,width,height,speed) {
     }
     this.isMovingLeft= false;
     this.isMovingRight= false;
+
 }     // Bắt sự kiện cho thanh chắn
         document.addEventListener("keydown",function (event) {
             if(event.keyCode==37){

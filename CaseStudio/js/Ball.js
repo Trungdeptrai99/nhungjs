@@ -20,7 +20,7 @@ function Circle(x, y, radius) {
     }
      if (tdy < inputradius ) {
         dy = -dy;}
-     if(tdy > 900- inputradius){
+     if(tdy > Board.height- inputradius){
          isGameOver= true;
      }
     }

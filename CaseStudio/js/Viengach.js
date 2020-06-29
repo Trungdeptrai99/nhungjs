@@ -6,6 +6,7 @@ var brickConfig={
     height:30,
     totalRow:5,
     totalCol:5
+
 }
     var bricklist=[];
     for (let i=0;i<brickConfig.totalRow;i++){
