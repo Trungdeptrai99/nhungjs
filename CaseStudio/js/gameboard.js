@@ -9,7 +9,7 @@
     var playerScore = 0;
     var maxScore = brickConfig.totalCol*brickConfig.totalRow
     function impact(){
-        if(tdx+inputradius>tdxbar&&tdx+inputradius<tdxbar+widthbar+22.5&&tdy+inputradius>900-inputradius+7.5){
+        if(tdx+inputradius>tdxbar&&tdx+inputradius<tdxbar+widthbar+22.5&&tdy+inputradius>Board.height-inputradius+7.5){
             dy=-dy;
         }
     }
@@ -27,7 +27,7 @@
     } else {
         if(isGameWin){
         alert("YOU WIN!!!" +" SCORE "+playerScore+"!!!" );
-
+            document.location.reload();
     }   else {
             alert("YOU LOSE!!! " + "Your score is " + playerScore + "!");
             document.location.reload();

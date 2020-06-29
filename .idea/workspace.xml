@@ -11,12 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddced766-2db7-4232-9327-3241d3dd1d29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CaseStudio/js/Viengach.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudio/js/Ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Ball.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudio/js/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudio/js/Viengach.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Viengach.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudio/js/gameboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/gameboard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +130,9 @@
       <workItem from="1593294703056" duration="3053000" />
       <workItem from="1593314583851" duration="14488000" />
       <workItem from="1593339496170" duration="13183000" />
-      <workItem from="1593366752748" duration="697000" />
+      <workItem from="1593366752748" duration="1419000" />
+      <workItem from="1593392987858" duration="451000" />
+      <workItem from="1593395113916" duration="9990000" />
     </task>
     <task id="LOCAL-00001" summary="Bai tap ung dung may tinh">
       <created>1591752174889</created>
@@ -436,7 +435,35 @@
       <option name="project" value="LOCAL" />
       <updated>1593348437235</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="update">
+      <created>1593367551594</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1593367551594</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update">
+      <created>1593367718628</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1593367718628</updated>
+    </task>
+    <task id="LOCAL-00046" summary="update">
+      <created>1593368156704</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1593368156704</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update">
+      <created>1593403729524</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1593403729524</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,6 +518,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1591329009867" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593403764348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593403764348" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1593346006954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

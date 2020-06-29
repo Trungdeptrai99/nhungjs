@@ -2,7 +2,7 @@ var widthbar= 300;
 var heightbar=30;
 var tdxbar = 1600/2-widthbar/2;
 var tdybar= 900-heightbar;
-var speedbar = widthbar/1.5;
+var speedbar = widthbar/1.61803;
 function Bar(x,y,width,height,speed) {
     this.speed= speed;
     this.x=x;
@@ -27,9 +27,9 @@ function Bar(x,y,width,height,speed) {
                 tdxbar= tdxbar+ speedbar;
             }
 
-            if(tdxbar>=1600-widthbar){
+            if(tdxbar>=Board.width-widthbar){
 
-                tdxbar =1300 ;
+                tdxbar =Board.width-widthbar ;
             }
             if(tdxbar<=0){
                 tdxbar=0;
