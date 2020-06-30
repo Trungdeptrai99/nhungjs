@@ -24,7 +24,6 @@ function Ball(x, y, radius) {
      if(tdy > Board.height- inputradius){
          maxLive--;
          if(maxLive>0){
-            alert("Lần đầu nên không quen? Cho thử thêm lần nữa này!")
              tdx=800;
              tdy=835;
              tdxbar = Board.width/2-widthbar/2;
