@@ -13,11 +13,8 @@
     <list default="true" id="ddced766-2db7-4232-9327-3241d3dd1d29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudio/js/Ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Ball.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudio/js/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Bar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudio/js/Viengach.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Viengach.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudio/js/gameboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/gameboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudio/js/test code.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/test code.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +134,8 @@
       <workItem from="1593392987858" duration="451000" />
       <workItem from="1593395113916" duration="19389000" />
       <workItem from="1593441236067" duration="1080000" />
+      <workItem from="1593442553007" duration="269000" />
+      <workItem from="1593479206987" duration="4419000" />
     </task>
     <task id="LOCAL-00001" summary="Bai tap ung dung may tinh">
       <created>1591752174889</created>
@@ -474,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593413684415</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="update">
+      <created>1593442778776</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1593442778776</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

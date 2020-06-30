@@ -10,7 +10,7 @@
     var maxScore = brickConfig.totalCol*brickConfig.totalRow
     function impact(){
         if(tdx+inputradius>tdxbar-inputradius*Math.sqrt(2)&&tdx+inputradius<tdxbar+widthbar+inputradius*Math.sqrt(2)
-            &&tdy+inputradius>=Board.height-inputradius+7.5){
+            &&tdy>=Board.height-heightbar- inputradius*Math.sqrt(2)/2){
             dy=-dy;
         }
     }

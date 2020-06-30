@@ -32,7 +32,7 @@ function drawBricks(){
             function impactBrick() {
             bricklist.forEach(function (b) {
             if(!b.isBroken){
-                if(tdx>=b.x&&tdx<=b.x+brickConfig.width
+                if(tdx+inputradius>=b.x&&tdx-inputradius<=b.x+brickConfig.width
                     &&tdy+inputradius>=b.y&&tdy-inputradius<=b.y+brickConfig.height){
                     dy=-dy;
                     b.isBroken=true;
