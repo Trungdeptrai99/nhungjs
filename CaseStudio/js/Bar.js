@@ -13,7 +13,7 @@ function Bar(x,y,width,height,speed) {
         this.x= tdxbar- speedbar;
     }
     this.moveRight= function () {
-        this.x= tdxbar+speedbar
+        this.x= tdxbar+speedbar;
     }
     this.isMovingLeft= false;
     this.isMovingRight= false;
@@ -39,7 +39,7 @@ function keyUp(e) {
         leftPressed = false;
     }
 }
-    function moveBar  () {
+function moveBar  () {
     if(rightPressed && tdxbar < Board.width-widthbar) {
         tdxbar += 15;
     }

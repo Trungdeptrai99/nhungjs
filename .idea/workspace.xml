@@ -14,7 +14,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudio/js/Ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Ball.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudio/js/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudio/js/Viengach.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Viengach.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudio/js/gameboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/gameboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudio/js/test code.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/test code.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Trinhngo.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,21 +139,8 @@
       <workItem from="1593395113916" duration="19389000" />
       <workItem from="1593441236067" duration="1080000" />
       <workItem from="1593442553007" duration="269000" />
-      <workItem from="1593479206987" duration="6984000" />
-    </task>
-    <task id="LOCAL-00002" summary="Thuc hanh kiem tra nam nhuan">
-      <created>1591761809622</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1591761809623</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Thuc hanh kiem luyen tap cau truc if eles">
-      <created>1591762684173</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1591762684173</updated>
+      <workItem from="1593479206987" duration="13135000" />
+      <workItem from="1593500655155" duration="276000" />
     </task>
     <task id="LOCAL-00004" summary="Thuc hanh kiem luyen tap cau truc if eles">
       <created>1591771963516</created>
@@ -480,7 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593484639946</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="update">
+      <created>1593486993735</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1593486993736</updated>
+    </task>
+    <task id="LOCAL-00052" summary="update">
+      <created>1593487117138</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1593487117138</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
