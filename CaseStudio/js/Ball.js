@@ -4,8 +4,7 @@ var inputradius= 30;
 var tdx=800;
 var tdy=835;
 var ctx = document.getElementById("myCanvas").getContext("2d");
-var maxLive = 3;
-
+var maxLive = 2;
 function Ball(x, y, radius) {
     this.x = x;
     this.y = y;
@@ -25,6 +24,7 @@ function Ball(x, y, radius) {
      if(tdy > Board.height- inputradius){
          maxLive--;
          if(maxLive>0){
+            alert("Lần đầu nên không quen? Cho thử thêm lần nữa này!")
              tdx=800;
              tdy=835;
              tdxbar = Board.width/2-widthbar/2;
