@@ -11,12 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddced766-2db7-4232-9327-3241d3dd1d29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/thiketthucmodule/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thiketthucmodule/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thiketthucmodule/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thiketthucmodule/bai4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudio/js/Ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Ball.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudio/js/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Bar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudio/js/Viengach.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/Viengach.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudio/js/gameboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/gameboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudio/js/test code.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudio/js/test code.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/Trinhngo.jpg" beforeDir="false" />
     </list>
@@ -28,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -140,21 +141,8 @@
       <workItem from="1593441236067" duration="1080000" />
       <workItem from="1593442553007" duration="269000" />
       <workItem from="1593479206987" duration="13135000" />
-      <workItem from="1593500655155" duration="276000" />
-    </task>
-    <task id="LOCAL-00004" summary="Thuc hanh kiem luyen tap cau truc if eles">
-      <created>1591771963516</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1591771963516</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Thực hành switch case">
-      <created>1591783329860</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1591783329860</updated>
+      <workItem from="1593500655155" duration="2159000" />
+      <workItem from="1593567148690" duration="3889000" />
     </task>
     <task id="LOCAL-00006" summary="Thực hành toan tu 3 ngoi">
       <created>1591785123001</created>
@@ -485,7 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593487117138</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update">
+      <created>1593502391307</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1593502391307</updated>
+    </task>
+    <task id="LOCAL-00054" summary="update">
+      <created>1593502396380</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1593502396380</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

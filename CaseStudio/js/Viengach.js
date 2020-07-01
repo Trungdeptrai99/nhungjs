@@ -20,7 +20,6 @@ for (let i=0;i<brickConfig.totalRow;i++){
 }
 function drawBricks(){
     bricklist.forEach(function (b) {
-
         if(!b.isBroken){ ctx.beginPath();
             ctx.rect(b.x,b.y,brickConfig.width,brickConfig.height )
             ctx.fillStyle= getRandomColor();
