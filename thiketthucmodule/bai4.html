@@ -15,10 +15,6 @@
         this.color = color;
         this.render= function () {
             var ctx = document.getElementById("myCanvas").getContext("2d");
-            var radius = this.radius;
-            var color = this.color;
-            var x = this.x;
-            var y = this.y;
             ctx.beginPath();
             ctx.arc(x,y,radius, 0, 2 * Math.PI);
             ctx.fillStyle= color;
