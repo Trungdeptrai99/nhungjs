@@ -16,12 +16,11 @@
         this.render= function () {
             var ctx = document.getElementById("myCanvas").getContext("2d");
             ctx.beginPath();
-            ctx.arc(x,y,radius, 0, 2 * Math.PI);
-            ctx.fillStyle= color;
+            ctx.arc(this.x,this.y,this.radius, 0, 2 * Math.PI);
+            ctx.fillStyle= this.color;
             ctx.fill();
         }
     }
-
         var circle = new Circle(10,10,100,"#000000")
         circle.render();
 </script>
